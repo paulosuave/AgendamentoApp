@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vascinacaocorona"
+    tools:context=".ConfirmacaoActivity">
+
+    <TextView
+        android:id="@+id/txvConfirmacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/txt_confirmacao"
+        android:textColor="#151515"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txvNomeC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-80dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/txt_nome"
+        android:textColor="#101010"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/txvConfirmacao"
+        app:layout_constraintTop_toBottomOf="@+id/txvConfirmacao" />
+
+    <TextView
+        android:id="@+id/txvNome2C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/txt_nome2c"
+        android:textColor="#121111"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/txvNomeC"
+        app:layout_constraintTop_toBottomOf="@+id/txvConfirmacao" />
+
+    <TextView
+        android:id="@+id/txvDataNascimentoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_data_nascimento"
+        android:textColor="#131313"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/txvNomeC"
+        app:layout_constraintTop_toBottomOf="@+id/txvNomeC" />
+
+    <TextView
+        android:id="@+id/txvDataNascimento2C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_dtnasc2c"
+        android:textColor="#0E0E0E"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/txvDataNascimentoC"
+        app:layout_constraintTop_toBottomOf="@+id/txvNome2C" />
+
+    <TextView
+        android:id="@+id/txvSexoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtsexoc2"
+        android:textColor="#131313"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/txvCPFC"
+        app:layout_constraintTop_toBottomOf="@+id/txvCPFC" />
+
+    <TextView
+        android:id="@+id/txvSexo2C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_sexo2c"
+        android:textColor="#0B0A0A"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/txvCPF2C"
+        app:layout_constraintTop_toBottomOf="@+id/txvCPF2C" />
+
+    <TextView
+        android:id="@+id/txvEscolaridadeC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_escolaridade"
+        android:textColor="#131313"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/txvSexoC"
+        app:layout_constraintTop_toBottomOf="@+id/txvSexoC" />
+
+    <TextView
+        android:id="@+id/txvEscolaridade2C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_escolaridade2c"
+        android:textColor="#121111"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/txvSexo2C"
+        app:layout_constraintTop_toBottomOf="@+id/txvSexo2C" />
+
+    <TextView
+        android:id="@+id/txvCPFC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_cpf"
+        android:textColor="#121212"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/txvDataNascimentoC"
+        app:layout_constraintTop_toBottomOf="@+id/txvDataNascimentoC" />
+
+    <TextView
+        android:id="@+id/txvCPF2C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_cpf2c"
+        android:textColor="#0C0C0C"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/txvDataNascimento2C"
+        app:layout_constraintTop_toBottomOf="@+id/txvDataNascimento2C" />
+
+    <TextView
+        android:id="@+id/txvLocalC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/txt_local"
+        android:textColor="#0E0E0E"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/txvEscolaridadeC"
+        app:layout_constraintTop_toBottomOf="@+id/txvEscolaridadeC" />
+
+    <TextView
+        android:id="@+id/txvLocal2C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/txt_localc2"
+        android:textColor="#131313"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/txvEscolaridade2C"
+        app:layout_constraintTop_toBottomOf="@+id/txvEscolaridade2C" />
+
+    <TextView
+        android:id="@+id/txvDataC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_data"
+        android:textColor="#0E0E0E"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/txvLocalC"
+        app:layout_constraintTop_toBottomOf="@+id/txvLocalC" />
+
+    <TextView
+        android:id="@+id/txvData2C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_datac2"
+        android:textColor="#0E0E0E"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/txvLocal2C"
+        app:layout_constraintTop_toBottomOf="@+id/txvLocal2C" />
+
+    <TextView
+        android:id="@+id/txvHoraC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_hora"
+        android:textColor="#0E0E0E"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/txvDataC"
+        app:layout_constraintTop_toBottomOf="@+id/txvDataC" />
+
+    <TextView
+        android:id="@+id/txvHora2C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_horac2"
+        android:textColor="#101010"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/txvData2C"
+        app:layout_constraintTop_toBottomOf="@+id/txvData2C" />
+
+    <Button
+        android:id="@+id/btnEncerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="-50dp"
+        android:backgroundTint="#4D304FFE"
+        android:text="@string/txt_encerrar"
+        app:layout_constraintEnd_toEndOf="@+id/txvHora2C"
+        app:layout_constraintTop_toBottomOf="@+id/txvHora2C" />
+</androidx.constraintlayout.widget.ConstraintLayout>

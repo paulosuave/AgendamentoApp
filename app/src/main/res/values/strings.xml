@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">AppAgendamentoAT4</string>
+    <string-array name="escolaridade">
+        <item id="EF"> Ensino Fundamental</item>
+        <item id="EM"> Ensino Médio</item>
+        <item id="ES"> Ensino Superior</item>
+        <item id="PS"> Pós-Graduação</item>
+    </string-array>
+    <string-array name="local">
+        <item id="UsCentro"> US Centro</item>
+        <item id="UsMaruipe"> Us Maruipe</item>
+        <item id="UsPSua"> Praia do Suá</item>
+        <item id="UsFSJoao"> Forte São João</item>
+        <item id="UsAndorinhas"> Andorinhas</item>
+        <item id="UsBonfim">Bomfim</item>
+        <item id="UsIlhaStMaria">Ilha Sta Maria</item>
+        <item id="UsIlhaPrincipe">Ilha do Príncipe</item>
+        <item id="UsJardimPenha">Jardim da Penha</item>
+        <item id="UsMariaOrtiz">Maria Ortiz</item>
+    </string-array>
+    <string-array name="data">
+        <item id="24/08/21">24/08/21</item>
+        <item id="25/08/21">25/08/21</item>
+        <item id="26/08/21">26/08/21</item>
+        <item id="27/08/21">27/08/21</item>
+        <item id="28/08/21">28/08/21</item>
+    </string-array>
+    <string-array name="hora">
+        <item id="07:00hs">07:00hs</item>
+        <item id="08:00hs">08:00hs</item>
+        <item id="09:00hs">09:00hs</item>
+        <item id="10:00hs">10:00hs</item>
+        <item id="11:00hs">11:00hs</item>
+        <item id="12:00hs">12:00hs</item>
+        <item id="13:00hs">13:00hs</item>
+        <item id="14:00hs">14:00hs</item>
+        <item id="15:00hs">15:00hs</item>
+        <item id="16:00hs">16:00hs</item>
+        <item id="17:00hs">17:00hs</item>
+        <item id="18:00hs">19:00hs</item>
+        <item id="19:00hs">19:00hs</item>
+        <item id="20:00hs">20:00hs</item>
+        <item id="21:00hs">21:00hs</item>
+        <item id="22:00hs">22:00hs</item>
+        <item id="23:00hs">23:00hs</item>
+        <item id="00:00hs">00:00hs</item>
+    </string-array>
+    <string name="txt_agendamento_de_doses">Agendamento de Doses:</string>
+    <string name="txtavancar">Avançar</string>
+    <string name="txt_sexo">Sexo:</string>
+    <string name="txt_f">F</string>
+    <string name="txt_m">M</string>
+    <string name="txt_o">O</string>
+    <string name="txt_nome">Nome</string>
+    <string name="txt_data_de_nascimento">Data de Nascimento</string>
+    <string name="txt_escolha_o_local_e_a_data">Escolha o Local e a Data</string>
+    <string name="declaro_presen_a_indispens_vel_falta_somente_txt_com_justificativa_apresentada">Declaro presença indispensável, falta somente com justificativa apresentada.</string>
+    <string name="txt_voltar">Voltar</string>
+    <string name="txt_avancar">Avançar</string>
+    <string name="txt_confirmacao">Confirmação</string>
+    <string name="txtsexoc2">Sexo</string>
+    <string name="txt_data_nascimento">Data Nascimento</string>
+    <string name="txt_cpf">CPF</string>
+    <string name="txt_escolaridade">Escolaridade</string>
+    <string name="txt_local">Local</string>
+    <string name="txt_data">Data</string>
+    <string name="txt_hora">Hora</string>
+    <string name="txt_encerrar">Encerrar</string>
+    <string name="txt_nome2c">nome2c</string>
+    <string name="txt_dtnasc2c">dtNasc2C</string>
+    <string name="txt_cpf2c">CPF2C</string>
+    <string name="txt_sexo2c">Sexo2C</string>
+    <string name="txt_escolaridade2c">Escolaridade2C</string>
+    <string name="txt_localc2">LocalC2</string>
+    <string name="txt_datac2">DataC2</string>
+    <string name="txt_horac2">HoraC2</string>
+</resources>

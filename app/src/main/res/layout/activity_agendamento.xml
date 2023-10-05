@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vascinacaocorona"
+    tools:context=".AgendamentoActivity">
+
+    <TextView
+        android:id="@+id/txvEscolhaLocaldata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/txt_escolha_o_local_e_a_data"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/spnLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:entries="@array/local"
+        app:layout_constraintStart_toEndOf="@+id/txvLocal"
+        app:layout_constraintTop_toBottomOf="@+id/txvEscolhaLocaldata" />
+
+    <TextView
+        android:id="@+id/txvLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/txt_local"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/txvEscolhaLocaldata"
+        app:layout_constraintTop_toBottomOf="@+id/txvEscolhaLocaldata" />
+
+    <TextView
+        android:id="@+id/txvDataAgendamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/txt_data"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/txvLocal"
+        app:layout_constraintTop_toBottomOf="@+id/txvLocal" />
+
+    <Spinner
+        android:id="@+id/spnData"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:entries="@array/data"
+        app:layout_constraintStart_toEndOf="@+id/txvDataAgendamento"
+        app:layout_constraintTop_toBottomOf="@+id/spnLocal" />
+
+    <TextView
+        android:id="@+id/txvHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_hora"
+        android:textColor="#101010"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/txvDataAgendamento"
+        app:layout_constraintTop_toBottomOf="@+id/txvDataAgendamento" />
+
+    <Spinner
+        android:id="@+id/spnHora"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/hora"
+        app:layout_constraintStart_toEndOf="@+id/txvHora"
+        app:layout_constraintTop_toBottomOf="@+id/spnData" />
+
+    <CheckBox
+        android:id="@+id/chkDeclaro"
+        android:layout_width="350sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="56dp"
+        android:buttonTint="#101010"
+        android:text="@string/declaro_presen_a_indispens_vel_falta_somente_txt_com_justificativa_apresentada"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnHora" />
+
+    <Button
+        android:id="@+id/btnVoltarMain"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#330843F3"
+        android:text="@string/txt_voltar"
+        app:layout_constraintEnd_toStartOf="@+id/btnAvancarConfirmacao"
+        app:layout_constraintStart_toStartOf="@+id/chkDeclaro"
+        app:layout_constraintTop_toBottomOf="@+id/chkDeclaro" />
+
+    <Button
+        android:id="@+id/btnAvancarConfirmacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#330843F3"
+        android:text="@string/txt_avancar"
+        app:layout_constraintEnd_toEndOf="@+id/chkDeclaro"
+        app:layout_constraintTop_toBottomOf="@+id/chkDeclaro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
